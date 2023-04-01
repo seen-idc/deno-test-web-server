@@ -1,0 +1,38 @@
+#contentContainer {
+    width: 50%;
+    height: 50%;
+    padding: 30px;
+    border-radius: 25px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: auto;
+    color: white;
+    background: rgb(24, 24, 27);
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    background: #904b7e;
+}
+
+.title {
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.center {
+    display: table;
+    margin: 0 auto;
+}
+
+.subtitle {
+    background: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: #b56dc2;
+    text-shadow:1px 1px 10px #b56dc2, 1px 1px 10px #ae65b2;
+}
